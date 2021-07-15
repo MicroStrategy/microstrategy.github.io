@@ -1,0 +1,20 @@
+.course-button {
+    width: 300px;
+    height: 250px;
+    /* border: 2px solid grey;                 */
+    border:none;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0px 0px;
+}
+
+#course-img {
+    width: 300px;
+    height: auto;
+    margin: 0px;
+}
+
+h5 {
+    margin-bottom: 0;
+}

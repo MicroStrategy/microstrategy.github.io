@@ -1,0 +1,20 @@
+.sdk-button {
+    width: 300px;
+    height: 250px;
+    border: 2px solid grey;
+    background-color: white;
+    margin: 1fr;
+    margin-top: 20px;
+}
+
+.sdk-name {
+    vertical-align: top;
+}
+
+.sdk-desc {
+    margin: auto 10px;
+}
+
+hr {
+    width: 40%;
+}

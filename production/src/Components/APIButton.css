@@ -1,0 +1,13 @@
+.apiref-button {
+    width: 300px;
+    height: 100px;
+    border: 2px solid grey;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+}
+
+hr {
+    width: 40%;
+}
+

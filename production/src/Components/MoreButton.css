@@ -1,0 +1,17 @@
+#more {
+    margin: auto;
+    min-width: 15%;
+    display:block;
+    margin-top: 30px;
+
+    background-color: white;
+    border: 2px solid black;
+    font-size: 110%;
+    font-weight: 150%;
+    padding: 5px;
+    color: blue;
+}
+
+#more:hover {
+    color: rgb(0, 0, 218);
+}

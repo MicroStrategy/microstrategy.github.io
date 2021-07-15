@@ -1,0 +1,20 @@
+.expert-button {
+    width: 300px;
+    height: 300px;
+    border: 2px solid grey;
+    background-color: white;
+    margin:auto;
+    margin-top:20px;
+}
+
+.expert-desc {
+    margin-left: 10px;
+}
+
+#expert-img {
+    object-fit: cover;
+    object-position: top;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
