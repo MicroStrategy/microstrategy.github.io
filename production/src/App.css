@@ -24,6 +24,7 @@ text, h1, h2, h3, h4, p {
     background-color: inherit;
     color: white;
     border: 1px solid white;
+    font-size: 100%;
 }
 
 .buttons {
