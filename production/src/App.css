@@ -12,13 +12,18 @@ text, h1, h2, h3, h4, p {
 .welcome {
     /* background: linear-gradient(rgb(233, 81, 81), rgb(240, 166, 240)); */
     background-image: url(banner.jpg);
-    padding: 5% 5% 7% 5%;
     margin-top: 10px;
-    height: 70px;
+    height: 250px;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 
 #headerwelcome {
     color: white;
+    margin: 0;
 }
 
 #whatsnew {
@@ -26,6 +31,7 @@ text, h1, h2, h3, h4, p {
     color: white;
     border: 1px solid white;
     font-size: 100%;
+    margin-top: 20px;
 }
 
 .buttons {
