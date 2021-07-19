@@ -21,7 +21,7 @@ function App() {
         <div className="welcome">
           <h1 id="headerwelcome">Welcome to MicroStrategy Developer</h1>
           <button onClick={function () { window.location = whatsnew }} id="whatsnew">
-            What's New in 2021
+            See What's New in 2021 &#8594;
           </button>
         </div>
       </div>

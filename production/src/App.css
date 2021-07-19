@@ -10,12 +10,9 @@ text {
 }
 
 .welcome {
-    background: linear-gradient(rgb(233, 81, 81), rgb(240, 166, 240));
-    /* background-image: url(dogs_1280p_0.jpeg); */
-    padding-top: 2%;
-    padding-bottom: 5%;
-    padding-left: 5%;
-    padding-right: auto;
+    /* background: linear-gradient(rgb(233, 81, 81), rgb(240, 166, 240)); */
+    background-image: url(banner.jpg);
+    padding: 5% 5% 7% 5%;
     margin-top: 10px;
 }
 
