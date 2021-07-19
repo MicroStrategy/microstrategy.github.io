@@ -6,7 +6,7 @@ function ExpertButton(props) {
         <div className="card expert-button" onClick={function() {window.location = props.link;}}>
             <div className="expert-button-content">
                 <img src={props.src} alt={props.name} id="expert-img" />
-                <h3 class="expert-name">{props.name}</h3>
+                <h2 class="expert-name">{props.name}</h2>
                 <h4 class="expert-desc">{props.desc}</h4>
             </div>
         </div>
