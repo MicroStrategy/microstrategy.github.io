@@ -5,7 +5,7 @@ function SDKButton(props) {
     return (
         <div className="card sdk-button">
             <div className="sdk-button-content" onClick={() => { window.location = props.link }}>
-                <h3 className="sdk-name">{props.name}</h3>
+                <h2 className="sdk-name">{props.name}</h2>
                 <hr className="sdk-button-hr" align="left" style={{ borderColor: props.color }}/>
                 <p className="sdk-desc">{props.desc}</p>
             </div>
