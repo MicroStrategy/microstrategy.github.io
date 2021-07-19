@@ -27,9 +27,8 @@ class Navbar extends React.Component {
                 </a>
                 <form onSubmit={this.handleSubmit} id="search">
                     <input type='text' placeholder="Search MicroStrategy Community" value={this.state.value} onChange={this.handleChange} id="search-bar" />
-                    {/* <input type='submit' value="search" id="submit-button"/> */}
                 </form>
-                <button onClick={function () { window.location = "https://www.microstrategy.com/en/support?now=expert" }} id="talk-to-expert">
+                <button className="btn-talk-to-expert" onClick={function () { window.location = "https://www.microstrategy.com/en/support?now=expert" }} id="talk-to-expert">
                     Talk to an expert
                 </button>
             </div>

@@ -3,11 +3,14 @@ import './ExpertButton.css'
 
 function ExpertButton(props) {
     return (
-        <button className="expert-button" onClick={function() {window.location = props.link;}}>
-            <img src={props.src} alt={props.name} id="expert-img" />
-            <h2 class="expert-name">{props.name}</h2>
-            <h3 class="expert-desc">{props.desc}</h3>
-        </button>
+        <div className="card expert-button" onClick={function() {window.location = props.link;}}>
+            <div className="expert-button-content">
+                <img src={props.src} alt={props.name} id="expert-img" />
+                <h3 class="expert-name">{props.name}</h3>
+                <h4 class="expert-desc">{props.desc}</h4>
+            </div>
+        </div>
+
     )
 }
 

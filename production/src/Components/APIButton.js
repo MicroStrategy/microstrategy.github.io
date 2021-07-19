@@ -3,10 +3,12 @@ import "./APIButton.css";
 
 function APIButton(props) {
     return (
-        <button className="apiref-button" onClick={function() {window.location = props.color;}}>
-            <h2 class="apiref-name">{props.name}</h2>
-            <hr style={{borderColor: props.color}}></hr>
-        </button>
+        <div className="card apiref-button" onClick={function() {window.location = props.color;}}>
+            <div className="apiref-button-content">
+                <h3 className="apiref-name">{props.name}</h3>
+                <hr className="apiref-button-hr" align="left" style={{ borderColor: props.color }}/>
+            </div>
+        </div>
     )
 }
 

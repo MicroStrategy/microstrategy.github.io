@@ -3,7 +3,7 @@ import './MoreButton.css'
 
 function MoreButton(props) {
     return (
-        <button id="more" onClick={function() {window.location = props.link}}>
+        <button className="card" id="more" onClick={function() {window.location = props.link}}>
             {props.name}
         </button>
     )

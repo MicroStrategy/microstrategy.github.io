@@ -5,8 +5,8 @@ a:focus {
   text-decoration: none;
 }
 
-text {
-    font-family: myriad-pro,"Myriad Pro","Open Sans",Arial,sans-serif;
+text, h1, h2, h3, h4, p {
+    font-family: Arial, myriad-pro,"Myriad Pro","Open Sans",sans-serif;
 }
 
 .welcome {
@@ -27,17 +27,10 @@ text {
 }
 
 .buttons {
-    display: grid;
-    place-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    width: 100%;
-    margin: auto;
-}
-
-button:hover,
-button:focus {
-    transform: scale(1.05) perspective(1px);
-    box-shadow: 2px 3px 5px 0 rgb(0 0 0 / 15%); 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .headers {
@@ -46,4 +39,11 @@ button:focus {
 
 .app {
     margin: auto 15% 5%;
+}
+
+.card:hover,
+.card:focus {
+    transform: scale(1.05) perspective(1px);
+    box-shadow: 2px 3px 5px 0 rgb(0 0 0 / 15%);
+    cursor: pointer;
 }

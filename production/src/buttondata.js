@@ -1,7 +1,7 @@
 export const sdk =
     [
         {
-            "name": "REST API",
+            "name": "Rest API",
             "link": "https://github.microstrategy.com/pages/mshaffer/mstr-docs/",
             "desc" : "A RESTful application designed to help developers build data-driven client applications quickly and easily.",
             "color": "red"
