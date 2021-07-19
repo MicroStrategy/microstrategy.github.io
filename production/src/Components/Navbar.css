@@ -13,21 +13,22 @@
 }
 
 #logo-img {
-    height: 25px;
+    height: 35px;
     width: auto;
 }
 
 #search {
-    flex: 6 0 100px;
-    /* margin: 0px 20px; */
+    flex: 6 0 280px;
 }
 
 #search-bar {
     align-self: flex-start;
-    height: 30px;
-    width: 90%;
+    height: 40px;
+    width: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
 
-    min-width: 150px;
+    min-width: 250px;
     background-color: rgba(236, 236, 236, 0.959);
     border:none;
     font-size: 90%;
@@ -40,10 +41,10 @@
     color: white;
     border: 1px solid rgb(177, 11, 11);
     display: block;
-    /* margin: 5px 0px; */
-    margin: 0;
-    padding: 5px;
-    height: 30px;
+
+    font-size:100%;
+    padding: 10px;
+    height: 40px;
 }
 /* 
 @media screen and (min-width: 1100px) {
