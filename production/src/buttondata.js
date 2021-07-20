@@ -3,50 +3,56 @@ export const sdk =
         {
             "name": "Rest API",
             "link": "https://github.microstrategy.com/pages/mshaffer/mstr-docs/",
-            "desc" : "A RESTful application designed to help developers build data-driven client applications quickly and easily.",
+            "desc" : "Build data-driven client applications quickly and easily",
             "color": "red"
         },
         {
             "name": "Embedding SDK",
             "link": "https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/projects/EmbeddingSDK/default.htm",
-            "desc": "Quickly integrate a MicroStrategy dossier into a web application with functionality such as controlling navigation, retrieving, and applying files.",
+            "desc": "Integrate a responsive MicroStrategy dossier into your web application",
             "color": "orange"
         },
         {
             "name": "Python SDK",
             "link": "https://www2.microstrategy.com/producthelp/Current/mstrio-py/",
-            "desc": "Quickly integrate a MicroStrategy dossier into a web application with functionality such as controlling navigation, retrieving, and applying files.",
+            "desc": "Interface securely with your MicroStrategy environment using Python or R",
             "color": "green"
         },
         {
             "name": "Mobile SDK",
+            "link": "https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/projects/MobileSDK/default.htm",
             "color": "purple",
-            "desc": "Quickly integrate a MicroStrategy dossier into a web application with functionality such as controlling navigation, retrieving, and applying files.",
+            "desc": "Customize your Android or iOS mobile applications built using MicroStrategy Mobile App Platform",
         },
         {
             "name": "Visualization SDK",
+            "link": "https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/projects/VisSDK/default.htm",
             "color": "pink",
-            "desc": "Quickly integrate a MicroStrategy dossier into a web application with functionality such as controlling navigation, retrieving, and applying files.",
+            "desc": "Create new stunning visualization plugins with the Custom Visualization Tool",
         },
         {
             "name": "Library SDK",
+            "link": "https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/projects/LibrarySDK/default.htm",
             "color": "lightblue",
-            "desc": "Quickly integrate a MicroStrategy dossier into a web application with functionality such as controlling navigation, retrieving, and applying files.",
+            "desc": "Access and collaborate on all your MicroStrategy dossiers in one easy, centralized location",
         },
         {
             "name": "Data Connector SDK",
+            "link": "https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/projects/DataConnectorSDK/default.htm",
             "color": "blue",
-            "desc": "Quickly integrate a MicroStrategy dossier into a web application with functionality such as controlling navigation, retrieving, and applying files.",
+            "desc": "Define custom web connections to explore fresh data with your MicroStrategy analytics",
         },
         {
             "name": "Library Mobile SDK",
+            "link": "https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/projects/LibraryMobileSDK/default.htm",
             "color": "yellow",
-            "desc": "Quickly integrate a MicroStrategy dossier into a web application with functionality such as controlling navigation, retrieving, and applying files.",
+            "desc": "Access and collaborate on all your MicroStrategy dossiers from your own mobile device",
         },
         {
             "name": "Web SDK",
+            "link": "https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/projects/WebSDK/default.htm",
             "color": "brown",
-            "desc": "Quickly integrate a MicroStrategy dossier into a web application with functionality such as controlling navigation, retrieving, and applying files.",
+            "desc": "Harness the powerful MicroStrategy Web product with simple and intuitive customizations",
         }
     ]
 
@@ -59,22 +65,27 @@ export const api =
     },
     {
         "name": "Library SDK",
+        "link": "https://demo.microstrategy.com/MicroStrategyLibrary/api-docs/#/Library",
         "color": "lightblue"
     },
     {
         "name": "Visualization SDK",
+        "link":  "https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/projects/VisSDK/Content/topics/HTML5/API_Reference.htm",
         "color": "pink"
     },
     {
         "name": "Data Connector SDK",
+        "link": "https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/projects/DataConnectorSDK/Content/topics/API_References/API_Reference.htm",
         "color": "blue"
     },
     {
         "name": "Mobile SDK",
+        "link": "https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/DevLib/sdk_mobile/html/index.html",
         "color": "purple"
     },
     {
         "name": "Identity SDK",
+        "link": "https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/projects/IdentitySDK/IdentityAPI_Content/Content/Topics/Identity_API_reference.htm",
         "color": "gold"
     }
 ]
