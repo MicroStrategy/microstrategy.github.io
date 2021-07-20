@@ -28,7 +28,7 @@ function App() {
         </div>
       </div>
       <div className="app">
-        <SectionHeader name="SDK Tools" desc="We offer a rich array of SDKs to help you customize, extend, integrate, and embed the power and functionality of MicroStrategy analytics into your Web and Mobile applications." />
+        <SectionHeader name="SDK Tools" desc="Customize, extend, integrate, and embed the power and functionality of MicroStrategy analytics into your Web and Mobile applications" />
         <div className="buttons">
           {
             sdk.map((data) => {
@@ -43,7 +43,7 @@ function App() {
             })
           }
         </div>
-        <SectionHeader name="API References" desc="Test out our most popular workflows!" />
+        <SectionHeader name="API References" desc="Explore API references to harness MicroStrategy's tools" />
         <div className="buttons">
           {
             api.map((data) => {
@@ -57,7 +57,7 @@ function App() {
             })
           }
         </div>
-        <SectionHeader name="Courses" desc="Learn more about how to use our SDK products through our community videos!" />
+        <SectionHeader name="Courses" desc="Discover and learn exciting new technology with community videos" />
         <div className="buttons">
           {
             courses.map((data) => {
@@ -73,7 +73,7 @@ function App() {
           }
         </div>
         <MoreButton name="See more courses" link="https://www.microstrategy.com/en/education"/>
-        <SectionHeader name="Experts" desc="Browse our directory of developer experts recognized by MicroStrategy for their skills." />
+        <SectionHeader name="Experts" desc="Find an expert recognized by MicroStrategy for their skills" />
         <div className="buttons">
           {
             experts.map((data) => {
