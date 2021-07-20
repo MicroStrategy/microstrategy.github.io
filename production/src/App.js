@@ -19,10 +19,12 @@ function App() {
       <div className="headers">
         <Navbar />
         <div className="welcome">
-          <h1 id="headerwelcome">Welcome to MicroStrategy Developer</h1>
-          <button onClick={function () { window.location = whatsnew }} id="whatsnew">
-            See What's New in 2021 &#8594;
-          </button>
+          <div>
+            <h1 id="headerwelcome">Welcome to MicroStrategy Developer</h1>
+            <button onClick={function () { window.location = whatsnew }} id="whatsnew">
+              See What's New in 2021 &#8594;
+            </button>
+          </div>
         </div>
       </div>
       <div className="app">
