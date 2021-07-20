@@ -10,8 +10,8 @@ text, h1, h2, h3, h4, p {
 }
 
 .welcome {
-    /* background: linear-gradient(rgb(233, 81, 81), rgb(240, 166, 240)); */
     background-image: url(banner.jpg);
+    background-size: cover;
     padding: 5% 5% 7% 5%;
     margin-top: 10px;
 }
@@ -43,7 +43,8 @@ text, h1, h2, h3, h4, p {
 }
 
 .card:hover,
-.card:focus {
+.card:focus, 
+#whatsnew:hover {
     transform: scale(1.05) perspective(1px);
     box-shadow: 2px 3px 5px 0 rgb(0 0 0 / 15%);
     cursor: pointer;
