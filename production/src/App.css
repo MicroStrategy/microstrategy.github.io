@@ -12,7 +12,7 @@ text, h1, h2, h3, h4, p {
 .welcome {
     background-image: url(banner.jpg);
     background-size: cover;
-    padding: 2% auto 3%;
+    padding: 2% 5% 3%;
     margin-top: 10px;
     height: 250px;
     padding-left: 70px;
