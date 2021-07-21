@@ -93,8 +93,8 @@ export const api =
 export const courses =
 [
     {
-        "name": "Introduction to Coding with MicroStrategy SDK",
-        "link": "https://www.microstrategy.com/en/education/courses/introduction-to-coding-with-microstrategy-sdk0",
+        "name": "Developer (DVL) Certification",
+        "link": "https://www.microstrategy.com/en/education/courses/developer-dvl-certification0",
         "src": "https://www.microstrategy.com/content/dam/website-assets/website-images/hero-banners/abstract-backgrounds/abstract_connected-point-diamond-grid_red.jpg"
     },
     {
