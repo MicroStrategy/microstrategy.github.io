@@ -93,22 +93,19 @@ export const api =
 export const courses =
 [
     {
-        "name": "Data, BI, and Analytics Trend Monitor",
-        "desc": "January 17, 2021",
-        "link": "https://www.microstrategy.com/en/resources/events/world-2021/on-demand/pfizer-success-spotlight",
-        "src": "https://www.microstrategy.com/content/dam/website-assets/website-images/thumbnails/research-and-reports/data-bi-and-analytics-trend-monitor-2021.jpg"
+        "name": "Introduction to Coding with MicroStrategy SDK",
+        "link": "https://www.microstrategy.com/en/education/courses/introduction-to-coding-with-microstrategy-sdk0",
+        "src": "https://www.microstrategy.com/content/dam/website-assets/website-images/hero-banners/abstract-backgrounds/abstract_connected-point-diamond-grid_red.jpg"
     },
     {
-        "name": "HyperIntelligence at a Glance",
-        "desc": "March 2, 2018",
-        "link": "https://www.microstrategy.com/en/hyperintelligence/video/moving-from-hyperintelligent-to-hyperproductive",
-        "src": "https://www.microstrategy.com/content/dam/website-assets/website-images/thumbnails/homepage/hyperintelligence-at-a-glance_thumbnail.jpg"
+        "name": "SDK for Customizing Analytical Applications",
+        "link": "https://www.microstrategy.com/en/education/courses/sdk-for-customizing-analytical-applications0",
+        "src": "https://www.microstrategy.com/content/dam/website-assets/website-images/hero-banners/abstract-backgrounds/rectangular-concrete-maze-overhead.jpg"
     },
     {
-        "name": "Embedded Analytics Platform Overview",
-        "desc": "April 1, 2020",
-        "link": "https://www.microstrategy.com/en/business-intelligence/video/overview-of-the-microstrategy-embedded-analytics-platform",
-        "src": "https://www.microstrategy.com/content/dam/website-assets/website-images/thumbnails/homepage/thumbnail-overview-of-the-mstr-embedded-analytics-plaform.jpg"
+        "name": "Embedding Analytics with MicroStrategy REST API",
+        "link": "https://www.microstrategy.com/en/education/courses/embedding-analytics-with-microstrategy-rest-api0",
+        "src": "https://www.microstrategy.com/content/dam/website-assets/website-images/hero-banners/abstract-backgrounds/angular-chevron-light-panels.jpg"
     }
 ]
 

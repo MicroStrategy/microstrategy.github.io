@@ -57,7 +57,7 @@ function App() {
             })
           }
         </div>
-        <SectionHeader name="Courses" desc="Discover and learn exciting new technology with community videos" />
+        <SectionHeader name="Courses" desc="Discover and learn exciting new technology with MicroStrategy classes" />
         <div className="buttons">
           {
             courses.map((data) => {

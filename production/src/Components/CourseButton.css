@@ -1,6 +1,6 @@
 .course-button {
     width: 300px;
-    height: 300px;
+    height: 250px;
     border:none;
     background-color: white;
     margin: 0;
@@ -14,12 +14,13 @@
 }
 
 .course-name {
-    margin: 0;
-    padding: 10px 0;
+    text-align: center;
+    padding: 0px 10px;
 }
 
 .course-desc {
     margin: 0;
+    padding: 0;
 }
 
 h5 {
