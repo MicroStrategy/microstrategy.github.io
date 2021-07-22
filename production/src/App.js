@@ -65,7 +65,7 @@ function App() {
                 <CourseButton
                   name={data.name}
                   desc={data.desc}
-                  src={data.src}
+                  src={'/Images/' +  data.src}
                   link={data.link}
                 />
               );
@@ -81,7 +81,7 @@ function App() {
                 <ExpertButton
                   name={data.name}
                   desc={data.desc}
-                  src={data.src}
+                  src={'/Images/' + data.src}
                   link={data.link}
                 />
               );
