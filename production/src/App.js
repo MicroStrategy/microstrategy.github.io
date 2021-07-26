@@ -5,12 +5,12 @@ import { api } from './buttondata'
 import { courses } from './buttondata'
 import { experts } from './buttondata';
 import Navbar from './Components/Navbar.js'
-import SDKButton from './Components/SDKButton';
+import SDKCard from './Components/SDKCard';
 import SectionHeader from './Components/SectionHeader';
-import APIButton from './Components/APIButton';
+import APICard from './Components/APICard';
 import MoreButton from './Components/MoreButton';
-import ExpertButton from './Components/ExpertButton';
-import CourseButton from './Components/CourseButton';
+import ExpertCard from './Components/ExpertCard';
+import CourseCard from './Components/CourseCard';
 
 function App() {
   const whatsnew = "https://www2.microstrategy.com/producthelp/Current/Readme/en-us/content/whats_new.htm";
@@ -33,7 +33,7 @@ function App() {
           {
             sdk.map((data) => {
               return (
-                <SDKButton
+                <SDKCard
                   name={data.name}
                   desc={data.desc}
                   color={data.color}
@@ -48,7 +48,7 @@ function App() {
           {
             api.map((data) => {
               return (
-                <APIButton
+                <APICard
                   name={data.name}
                   color={data.color}
                   link={data.link}
@@ -62,7 +62,7 @@ function App() {
           {
             courses.map((data) => {
               return (
-                <CourseButton
+                <CourseCard
                   name={data.name}
                   desc={data.desc}
                   src={'./Images/' +  data.src}
@@ -78,7 +78,7 @@ function App() {
           {
             experts.map((data) => {
               return (
-                <ExpertButton
+                <ExpertCard
                   name={data.name}
                   desc={data.desc}
                   src={'./Images/' + data.src}
