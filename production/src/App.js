@@ -73,7 +73,7 @@ function App() {
           }
         </div>
         <MoreButton name="See more courses" link="https://www.microstrategy.com/en/education"/>
-        <SectionHeader name="Experts" desc="Find an expert recognized by MicroStrategy for their skills" />
+        <SectionHeader name="Experts" desc="Talk to our MicroStrategy SDK experts!" />
         <div className="buttons">
           {
             experts.map((data) => {
@@ -88,7 +88,7 @@ function App() {
             })
           }
         </div>
-        <MoreButton name="See more experts"/>
+
       </div>
     </div>
   );
