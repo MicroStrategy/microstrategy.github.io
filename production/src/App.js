@@ -74,7 +74,7 @@ function App() {
         </div>
         <MoreButton name="See more courses" link="https://www.microstrategy.com/en/education"/>
         <SectionHeader name="Experts" desc="Find an expert recognized by MicroStrategy for their skills" />
-        <div className="buttons">
+        <div className="buttons expert">
           {
             experts.map((data) => {
               return (
@@ -82,13 +82,13 @@ function App() {
                   name={data.name}
                   desc={data.desc}
                   src={'./Images/' + data.src}
-                  link={data.link}
+                  linked={data.linked}
+                  email={data.email}
                 />
               );
             })
           }
         </div>
-        <MoreButton name="See more experts"/>
       </div>
     </div>
   );

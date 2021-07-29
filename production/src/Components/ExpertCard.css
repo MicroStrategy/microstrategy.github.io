@@ -23,10 +23,59 @@
     justify-content: center;
 }
 
-#expert-img {
+.expert-img {
     object-fit: cover;
     object-position: top;
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+
+/* Modal formatting */
+
+.modal {
+    position: fixed;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* height: 50%;
+    width: 50%; */
+    padding: 20px 20px;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 5px 6px 10px 0 rgb(0 0 0 / 40%);
+    text-align: center;
+}
+
+#close-modal {
+    background-color: inherit;
+    border: none;
+    padding: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 200%
+}
+
+#close-modal:hover, #close-modal:focus {
+    background-color: gray;
+    cursor: pointer;
+}
+
+/* .modal-text  {
+    transform: translate(-50%,-50%);
+} */
+
+.expert-email, .expert-linked {
+    margin: 0%;
+}
+
+.extra-info {
+    margin-top: 5%;
+}
+
+.overlay {
+    background-color: red;
 }

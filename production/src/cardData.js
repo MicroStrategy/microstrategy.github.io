@@ -61,32 +61,32 @@ export const api =
     {
         "name": "Rest API",
         "link": "https://demo.microstrategy.com/MicroStrategyLibrary/api-docs/#/",
-        "color": "red"
+        "color": "red",
     },
     {
         "name": "Library SDK",
         "link": "https://demo.microstrategy.com/MicroStrategyLibrary/api-docs/#/Library",
-        "color": "lightblue"
+        "color": "lightblue",
     },
     {
         "name": "Visualization SDK",
         "link":  "https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/projects/VisSDK/Content/topics/HTML5/API_Reference.htm",
-        "color": "pink"
+        "color": "pink",
     },
     {
         "name": "Data Connector SDK",
         "link": "https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/projects/DataConnectorSDK/Content/topics/API_References/API_Reference.htm",
-        "color": "blue"
+        "color": "blue",
     },
     {
         "name": "Mobile SDK",
         "link": "https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/DevLib/sdk_mobile/html/index.html",
-        "color": "purple"
+        "color": "purple",
     },
     {
         "name": "Identity SDK",
         "link": "https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/projects/IdentitySDK/IdentityAPI_Content/Content/Topics/Identity_API_reference.htm",
-        "color": "gold"
+        "color": "gold",
     }
 ]
 
@@ -95,17 +95,17 @@ export const courses =
     {
         "name": "Developer (DVL) Certification",
         "link": "https://www.microstrategy.com/en/education/courses/developer-dvl-certification0",
-        "src": "abstract_connected-point-diamond-grid_red.jpg"
+        "src": "abstract_connected-point-diamond-grid_red.jpg",
     },
     {
         "name": "SDK for Customizing Analytical Applications",
         "link": "https://www.microstrategy.com/en/education/courses/sdk-for-customizing-analytical-applications0",
-        "src": "rectangular-concrete-maze-overhead.jpg"
+        "src": "rectangular-concrete-maze-overhead.jpg",
     },
     {
         "name": "Embedding Analytics with MicroStrategy REST API",
         "link": "https://www.microstrategy.com/en/education/courses/embedding-analytics-with-microstrategy-rest-api0",
-        "src": "angular-chevron-light-panels.jpg"
+        "src": "angular-chevron-light-panels.jpg",
     }
 ]
 
@@ -114,16 +114,22 @@ export const experts =
     {
         "name": "Nahia Colunga",
         "desc": "MicroStrategy Consultant",
-        "src": "colunga.jpg"
+        "src": "colunga.jpg",
+        "linked": "https://www.linkedin.com/in/amber-wang-110",
+        "email": "amwang@microstrategy.com",
     },
     {
         "name": "Christopher Longoria",
         "desc": "MicroStrategy Consultant",
-        "src": "longoria.jpg"
+        "src": "longoria.jpg",
+        "linked": "https://www.linkedin.com/in/amber-wang-110",
+        "email": "amwang@microstrategy.com",
     },
     {
         "name": "Herse Hedman",
         "desc": "MicroStrategy Consultant",
-        "src": "hedman.jpg"
+        "src": "hedman.jpg",
+        "linked": "https://www.linkedin.com/in/amber-wang-110",
+        "email": "amwang@microstrategy.com",
     }
 ]
