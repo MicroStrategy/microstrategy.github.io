@@ -1,0 +1,22 @@
+.footer {
+    background-color: rgb(243, 243, 243);
+    margin: 0px 0px;
+    padding: 10px 10px;
+}
+
+.logo {
+
+    display: inline-block;
+    width: 15%;
+    height: auto;
+}
+
+.icon {
+    color: black;
+
+    margin: 1%;
+}
+
+li {
+    display: inline;
+}

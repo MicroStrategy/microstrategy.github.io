@@ -8,9 +8,10 @@ import Navbar from './Components/Navbar.js'
 import SDKCard from './Components/SDKCard';
 import SectionHeader from './Components/SectionHeader';
 import APICard from './Components/APICard';
+import CourseCard from './Components/CourseCard';
 import MoreButton from './Components/MoreButton';
 import ExpertCard from './Components/ExpertCard';
-import CourseCard from './Components/CourseCard';
+import Footer from './Components/Footer'
 
 function App() {
   const whatsnew = "https://www2.microstrategy.com/producthelp/Current/Readme/en-us/content/whats_new.htm";
@@ -73,22 +74,26 @@ function App() {
           }
         </div>
         <MoreButton name="See more courses" link="https://www.microstrategy.com/en/education"/>
-        <SectionHeader name="Experts" desc="Find an expert recognized by MicroStrategy for their skills" />
-        <div className="buttons expert">
+        <SectionHeader name="Experts" desc="Talk to our MicroStrategy SDK experts!" />
+        <div className="buttons">
           {
             experts.map((data) => {
               return (
                 <ExpertCard
                   name={data.name}
                   desc={data.desc}
+                  bio={data.bio}
                   src={'./Images/' + data.src}
-                  linked={data.linked}
+                  linkedin={data.linkedin}
                   email={data.email}
                 />
               );
             })
           }
         </div>
+      </div>
+      <div className="footers">
+        <Footer />
       </div>
     </div>
   );

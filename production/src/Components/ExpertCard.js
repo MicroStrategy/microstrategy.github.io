@@ -22,6 +22,23 @@ class ExpertCard extends React.Component {
     handleCloseModal() {
         this.setState({ showModal: false });
     }
+
+    email() {
+        if (this.props.email) {
+            return  (
+                <p class="expert-email"><b>Email: </b> {this.props.email}</p>
+            );
+        }
+    }
+
+    linkedIn() {
+        if (this.props.linkedin) {
+            return (
+                <p class="expert-linked"><b>LinkedIn: </b><a href={this.props.linkedin}>{this.props.linkedin}</a></p>
+            );
+        }
+    }
+
     render() {
         return (
             <div>
@@ -35,13 +52,13 @@ class ExpertCard extends React.Component {
                 <ReactModal isOpen={this.state.showModal} contentLabel="Expert Information" className="modal" onRequestClose={this.handleCloseModal}>
                     <button onClick={this.handleCloseModal} id="close-modal">&times;</button>
                     <div className="modaltext">
-                        <h1>Contact our Expert!</h1>
+                        {/* <h1>Contact Our Expert!</h1> */}
                         <img src={this.props.src} alt={this.props.name} class="expert-img" />
                         <h2 class="expert-name">{this.props.name}</h2>
                         <h4 class="expert-desc">{this.props.desc}</h4>
                         <div class="extra-info">
-                            <p class="expert-email">Email: {this.props.email}</p>
-                            <p class="expert-linked">LinkedIn: <a href={this.props.linked}>{this.props.linked}</a></p>
+                            {this.email()}
+                            {this.linkedIn()}
                         </div>
                     </div>
                 </ReactModal>

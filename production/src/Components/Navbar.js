@@ -36,21 +36,4 @@ class Navbar extends React.Component {
     }
 }
 
-// function Navbar() {
-//     return (
-//             <div className="navbar">
-//                 <div className="navbar-container">
-//                     <a href="https://www.microstrategy.com">
-//                         <img src="ms-logo.png" alt="MicroStrategy Logo" name="navbar-logo" />
-//                     </a>
-//                     <form id="search" target="__blank">
-//                     </form>
-//                     <button onClick={function() {window.location = "https://www.microstrategy.com/en/support?now=expert"}} className="button">
-//                             Talk to an expert
-//                         </button>
-//                 </div>
-//             </div>
-//     )
-// }
-
 export default Navbar

@@ -112,24 +112,29 @@ export const courses =
 export const experts =
 [
     {
-        "name": "Nahia Colunga",
-        "desc": "MicroStrategy Consultant",
-        "src": "colunga.jpg",
-        "linked": "https://www.linkedin.com/in/amber-wang-110",
-        "email": "amwang@microstrategy.com",
+        "name": "Antoine Issaly",
+        "desc": "Solutions Architect",
+        "bio": "",
+        "src": "antoine.jpg",
+        "linkedin": "https://www.linkedin.com/in/antoineissaly/",
+        "email": "aissaly@microstrategy.com"
+
     },
     {
-        "name": "Christopher Longoria",
-        "desc": "MicroStrategy Consultant",
-        "src": "longoria.jpg",
-        "linked": "https://www.linkedin.com/in/amber-wang-110",
-        "email": "amwang@microstrategy.com",
+        "name": "Yuval Levy",
+        "desc": "Senior Principal Consultant",
+        "bio": "",
+        "src": "yuval.jpg",
+        "linkedin": "",
+        "email": "ylevy@microstrategy.com"
     },
     {
-        "name": "Herse Hedman",
-        "desc": "MicroStrategy Consultant",
-        "src": "hedman.jpg",
-        "linked": "https://www.linkedin.com/in/amber-wang-110",
-        "email": "amwang@microstrategy.com",
+        "name": "Miroslaw Witwicki",
+        "desc": "Senior Principal Consultant",
+        'bio': "",
+        "src": "miroslaw.jpg",
+        "linkedin": "https://www.linkedin.com/in/miroslaw-witwicki/",
+        "email": "mwitwicki@microstrategy.com"
+
     }
 ]
