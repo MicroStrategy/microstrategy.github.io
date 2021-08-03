@@ -44,7 +44,7 @@ function App() {
             })
           }
         </div>
-        <SectionHeader name="API References" desc="Explore API references to harness MicroStrategy's tools" />
+        <SectionHeader name="API References" desc="Explore the APIs that let you harness MicroStrategy's tools" />
         <div className="buttons">
           {
             api.map((data) => {

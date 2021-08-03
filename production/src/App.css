@@ -4,10 +4,10 @@ a:focus {
   color: #23527c;
   text-decoration: none;
 }
-
+/* 
 text, h1, h2, h3, h4, p {
-    font-family: Arial, myriad-pro,"Myriad Pro","Open Sans",sans-serif;
-}
+    /* font-family: myriad-pro,"Myriad Pro","Open Sans",sans-serif;
+} */
 
 .welcome {
     background-image: url(banner.jpg);
@@ -38,7 +38,7 @@ text, h1, h2, h3, h4, p {
 .buttons {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 40px;
 }
 

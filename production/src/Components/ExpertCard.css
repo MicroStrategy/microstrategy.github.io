@@ -40,13 +40,21 @@
     bottom: auto;
     left: 50%;
     transform: translate(-50%,-50%);
-    /* height: 50%;
-    width: 50%; */
     padding: 5% 5%;
     background-color: white;
     border: 2px solid black;
+    /* border: none; */
     box-shadow: 5px 6px 10px 0 rgb(0 0 0 / 40%);
     text-align: center;
+}
+
+
+.modal-img {
+    object-fit: cover;
+    object-position: top;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
 
 #close-modal {
@@ -60,13 +68,8 @@
 }
 
 #close-modal:hover, #close-modal:focus {
-    background-color: gray;
     cursor: pointer;
 }
-
-/* .modal-text  {
-    transform: translate(-50%,-50%);
-} */
 
 .expert-email, .expert-linked {
     margin: 0%;

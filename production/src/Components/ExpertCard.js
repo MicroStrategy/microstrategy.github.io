@@ -44,19 +44,20 @@ class ExpertCard extends React.Component {
             <div>
                 <div className="card expert-button" onClick={this.handleOpenModal}>
                     <div className="expert-button-content">
-                        <img src={this.props.src} alt={this.props.name} class="expert-img" />
-                        <h2 class="expert-name">{this.props.name}</h2>
-                        <h4 class="expert-desc">{this.props.desc}</h4>
+                        <img src={this.props.src} alt={this.props.name} className="expert-img" />
+                        <h2 className="expert-name">{this.props.name}</h2>
+                        <h4 className="expert-desc">{this.props.desc}</h4>
                     </div>
                 </div>
                 <ReactModal isOpen={this.state.showModal} contentLabel="Expert Information" className="modal" onRequestClose={this.handleCloseModal}>
                     <button onClick={this.handleCloseModal} id="close-modal">&times;</button>
                     <div className="modaltext">
-                        {/* <h1>Contact Our Expert!</h1> */}
-                        <img src={this.props.src} alt={this.props.name} class="expert-img" />
+                        <h1>Contact Our Expert!</h1>
+                        <img src={this.props.src} alt={this.props.name} class="modal-img" />
                         <h2 class="expert-name">{this.props.name}</h2>
                         <h4 class="expert-desc">{this.props.desc}</h4>
                         <div class="extra-info">
+                            <p className="expert-bio">{this.props.bio}</p>
                             {this.email()}
                             {this.linkedIn()}
                         </div>

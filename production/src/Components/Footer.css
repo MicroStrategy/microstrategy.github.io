@@ -1,22 +1,74 @@
 .footer {
     background-color: rgb(243, 243, 243);
     margin: 0px 0px;
-    padding: 10px 10px;
+    padding: 2% 2%;
+    display: flex;
+    align-items: stretch;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.copyright {
+    font-family: myriad-pro,"Myriad Pro","Open Sans",Arial,sans-serif;
+    font-size: 80%;
 }
 
 .logo {
 
     display: inline-block;
-    width: 15%;
+    width: 40%;
+    min-width: 100px;
     height: auto;
 }
 
 .icon {
-    color: black;
+    color: white;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: gray;
+}
 
-    margin: 1%;
+.slds-col {
+    display: inline;
+}
+
+.grid {
+    width: min-content;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex: 1 1 auto;
+}
+
+.slds-col {
+    margin: 0.5rem 0;
+}
+
+.slds-grid {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 li {
-    display: inline;
+    list-style: none;
+}
+
+.label-link {
+    font-size: 120%;
+    text-transform: uppercase;
+}
+
+.site-nav {
+    padding: 0% 10%;
+}
+
+a {
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #d9232e;
 }
