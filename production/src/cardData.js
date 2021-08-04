@@ -123,7 +123,7 @@ export const experts =
     {
         "name": "Yuval Levy",
         "desc": "Senior Principal Consultant",
-        "bio": "",
+        "bio": "Yuval Levy is a Senior Principal Consultant at MicroStrategy. He has extensive experiences in MicroStrategy Platform and SDK. He works from Menlo Park, CA. ",
         "src": "yuval.jpg",
         "linkedin": "",
         "email": "ylevy@microstrategy.com"
@@ -131,7 +131,7 @@ export const experts =
     {
         "name": "Miroslaw Witwicki",
         "desc": "Senior Principal Consultant",
-        'bio': "",
+        'bio': "Miroslaw Witwicki is a Senior Principal Consultant at MicroStrategy. He works from Warsaw, Poland. Miroslaw is an expert in MicroStrategy SDK. ",
         "src": "miroslaw.jpg",
         "linkedin": "https://www.linkedin.com/in/miroslaw-witwicki/",
         "email": "mwitwicki@microstrategy.com"
