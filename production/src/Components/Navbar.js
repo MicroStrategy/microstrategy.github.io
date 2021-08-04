@@ -23,7 +23,7 @@ class Navbar extends React.Component {
         return (
             <div className="navbar">
                 <a href="https://www.microstrategy.com" id="logo">
-                    <img src='./Images/ms-logo.png' alt="MicroStrategy Logo" id="logo-img" />
+                    <img src="./Images/microstrategy-logo_red.svg" alt="MicroStrategy Logo" id="logo-img" />
                 </a>
                 <form onSubmit={this.handleSubmit} id="search">
                     <input type='text' placeholder="Search MicroStrategy Community" value={this.state.value} onChange={this.handleChange} id="search-bar" />

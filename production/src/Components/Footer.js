@@ -4,15 +4,15 @@ import './Footer.css'
 function Footer() {
     return (
         <div className="footer">
-            <div className="grid">
-                <div className="ms-info">
+            <div className="ms-info">
+                <div className="slds-col ms-logo">
                     <a href="https://www.microstrategy.com/en" class="site-logo" >
                         <img src="./Images/microstrategy-logo_red.svg" alt="MicroStrategy Logo" class="logo" /></a>
                 </div>
-                <div class="slds-col cell slds-p-vertical_none slds-size_1-of-1">
+                <div class="slds-col socials">
                     <nav class="nav-social">
-                        <ul class="slds-grid slds-wrap">
-                            <li class="slds-col cell">
+                        <ul class="slds-grid">
+                            <li class="slds-col">
                                 <a href="https://twitter.com/microstrategy" class="icon twitter">
                                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="16" height="16" viewBox="0 0 32 32">
                                         <title >twitter</title>
@@ -20,7 +20,7 @@ function Footer() {
                                     </svg>
                                 </a>
                             </li>
-                            <li class="slds-col cell">
+                            <li class="slds-col">
                                 <a href="https://linkedin.com/company/microstrategy" class="icon linkedin">
                                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="16" height="16" viewBox="0 0 32 32">
                                         <title >linkedin</title>
@@ -28,19 +28,19 @@ function Footer() {
                                     </svg>
                                 </a>
                             </li>
-                            <li class="slds-col cell btn slim black">
+                            <li class="slds-col">
                                 <a href="https://www.microstrategy.com/en/company/contact-us?now=start" class="icon">Contact us</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
-                <div class="slds-col cell cell-hidden slds-size_1-of-1">
+                <div class="slds-col">
                     <p class="copyright">©&nbsp;2021 Copyright MicroStrategy Incorporated. All Rights Reserved.</p>
                 </div>
             </div>
             <div className="site-nav">
-                <div class="slds-grid">
-                    <div class="slds-col cell">
+                <div class="slds-grid sitemap">
+                    <div class="slds-col">
                         <nav class="nav-sitemap">
                             <p class="label">
                                 <a href="https://www.microstrategy.com/en/business-intelligence" class="label-link">Intelligence</a>
@@ -62,7 +62,7 @@ function Footer() {
                             </li>
                         </nav>
                     </div>
-                    <div class="slds-col cell">
+                    <div class="slds-col">
                         <nav class="nav-sitemap">
                             <p class="label">
                                 <a href="https://community.microstrategy.com/s/?language=en_US" class="label-link">Community</a>
@@ -81,6 +81,28 @@ function Footer() {
                             </li>
                             <li>
                                 <a href="https://blog.microstrategy.com/">Blog</a>
+                            </li>
+                        </nav>
+                    </div>
+                    <div class="slds-col">
+                        <nav class="nav-sitemap">
+                            <p class="label">
+                                <a href="https://www.microstrategy.com/en/solutions" class="label-link">Solutions</a>
+                            </p>
+                            <li>
+                                <a href="https://www.microstrategy.com/en/solutions/retail">Retail</a>
+                            </li>
+                            <li>
+                                <a href="https://www.microstrategy.com/en/solutions/financial-services">Financial Services</a>
+                            </li>
+                            <li>
+                                <a href="https://www.microstrategy.com/en/solutions/healthcare-pharmaceuticals">Healthcare</a>
+                            </li>
+                            <li>
+                                <a href="https://www.microstrategy.com/en/solutions/federal-government">Government</a>
+                            </li>
+                            <li>
+                                <a href="https://www.microstrategy.com/en/partners/oem-partnership">OEM</a>
                             </li>
                         </nav>
                     </div>

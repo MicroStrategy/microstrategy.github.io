@@ -1,26 +1,31 @@
-
 a:hover,
 a:focus {
   color: #23527c;
   text-decoration: none;
 }
-/* 
-text, h1, h2, h3, h4, p {
-    /* font-family: myriad-pro,"Myriad Pro","Open Sans",sans-serif;
-} */
 
-.welcome {
-    background-image: url(banner.jpg);
-    background-size: cover;
-    padding: 2% 5% 3%;
-    margin-top: 10px;
-    height: 250px;
-    padding-left: 70px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
+.banner {
+    background-image: url(banner.jpg);
+    background-size: cover;
+    padding: 3% 2%;
+    margin-top: 10px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.welcome  {
+    min-width: fit-content;
+    margin: 5% 2%;
+}
 
 #headerwelcome {
     color: white;
@@ -33,7 +38,21 @@ text, h1, h2, h3, h4, p {
     border: 1px solid white;
     font-size: 100%;
     margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
 }
+
+.video {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+/* @media (max-width: 1000px) {
+    .video {
+        display: none;
+    }
+} */
 
 .buttons {
     display: flex;
@@ -43,7 +62,7 @@ text, h1, h2, h3, h4, p {
 }
 
 .headers {
-    margin: 20px;
+    margin: 0px;
 }
 
 .app {

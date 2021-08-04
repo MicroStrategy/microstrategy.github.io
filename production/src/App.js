@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
 import { sdk } from './cardData'
-import { api } from './cardData'
 import { courses } from './cardData'
 import { experts } from './cardData';
 import Navbar from './Components/Navbar.js'
 import SDKCard from './Components/SDKCard';
 import SectionHeader from './Components/SectionHeader';
-import APICard from './Components/APICard';
 import CourseCard from './Components/CourseCard';
 import MoreButton from './Components/MoreButton';
 import ExpertCard from './Components/ExpertCard';
@@ -19,12 +17,17 @@ function App() {
     <div className="whole">
       <div className="headers">
         <Navbar />
-        <div className="welcome">
-          <div>
+        <div className="banner">
+          <div className="welcome">
             <h1 id="headerwelcome">Welcome to MicroStrategy Developer</h1>
             <button onClick={function () { window.location = whatsnew }} id="whatsnew">
               See What's New in 2021 &#8594;
             </button>
+          </div>
+          <div class="video">
+            <iframe width="450" height="300"
+              src="https://www.youtube.com/embed/QKtIG0MlfAk">
+            </iframe>
           </div>
         </div>
       </div>
@@ -44,20 +47,6 @@ function App() {
             })
           }
         </div>
-        <SectionHeader name="API References" desc="Explore the APIs that let you harness MicroStrategy's tools" />
-        <div className="buttons">
-          {
-            api.map((data) => {
-              return (
-                <APICard
-                  name={data.name}
-                  color={data.color}
-                  link={data.link}
-                />
-              );
-            })
-          }
-        </div>
         <SectionHeader name="Courses" desc="Discover and learn exciting new technology with MicroStrategy classes" />
         <div className="buttons">
           {
@@ -66,14 +55,14 @@ function App() {
                 <CourseCard
                   name={data.name}
                   desc={data.desc}
-                  src={'./Images/' +  data.src}
+                  src={'./Images/' + data.src}
                   link={data.link}
                 />
               );
             })
           }
         </div>
-        <MoreButton name="See more courses" link="https://www.microstrategy.com/en/education"/>
+        <MoreButton name="See more courses" link="https://www.microstrategy.com/en/education" />
         <SectionHeader name="Experts" desc="Talk to our MicroStrategy SDK experts!" />
         <div className="buttons">
           {

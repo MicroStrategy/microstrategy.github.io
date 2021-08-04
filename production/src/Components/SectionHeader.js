@@ -3,9 +3,9 @@ import './SectionHeader.css'
 
 function SectionHeader(props) {
     return (
-        <div>
+        <div class="section-header">
             <h1 className="section-header-name">{props.name}</h1>
-            <h3>{props.desc}</h3>
+            <h3 className="section-desc">{props.desc}</h3>
         </div>
     )
 }

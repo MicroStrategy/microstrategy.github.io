@@ -42,8 +42,7 @@
     transform: translate(-50%,-50%);
     padding: 5% 5%;
     background-color: white;
-    border: 2px solid black;
-    /* border: none; */
+    border: none;
     box-shadow: 5px 6px 10px 0 rgb(0 0 0 / 40%);
     text-align: center;
 }
@@ -77,8 +76,4 @@
 
 .extra-info {
     margin-top: 5%;
-}
-
-.overlay {
-    background-color: red;
 }

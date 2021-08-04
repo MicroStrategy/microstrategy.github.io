@@ -2,13 +2,13 @@ export const sdk =
     [
         {
             "name": "Rest API",
-            "link": "https://github.microstrategy.com/pages/mshaffer/mstr-docs/",
+            "link": "https://github.microstrategy.com/pages/Tech/restapi-docs/",
             "desc" : "Build data-driven client applications quickly and easily",
             "color": "red"
         },
         {
             "name": "Embedding SDK",
-            "link": "https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/projects/EmbeddingSDK/default.htm",
+            "link": "https://github.microstrategy.com/pages/Tech/embedding-sdk-docs/",
             "desc": "Integrate a responsive MicroStrategy dossier into your web application",
             "color": "orange"
         },
@@ -55,40 +55,6 @@ export const sdk =
             "desc": "Harness the powerful MicroStrategy Web product with simple and intuitive customizations",
         }
     ]
-
-export const api = 
-[
-    {
-        "name": "Rest API",
-        "link": "https://demo.microstrategy.com/MicroStrategyLibrary/api-docs/#/",
-        "color": "red",
-    },
-    {
-        "name": "Library SDK",
-        "link": "https://demo.microstrategy.com/MicroStrategyLibrary/api-docs/#/Library",
-        "color": "lightblue",
-    },
-    {
-        "name": "Visualization SDK",
-        "link":  "https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/projects/VisSDK/Content/topics/HTML5/API_Reference.htm",
-        "color": "pink",
-    },
-    {
-        "name": "Data Connector SDK",
-        "link": "https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/projects/DataConnectorSDK/Content/topics/API_References/API_Reference.htm",
-        "color": "blue",
-    },
-    {
-        "name": "Mobile SDK",
-        "link": "https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/DevLib/sdk_mobile/html/index.html",
-        "color": "purple",
-    },
-    {
-        "name": "Identity SDK",
-        "link": "https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/projects/IdentitySDK/IdentityAPI_Content/Content/Topics/Identity_API_reference.htm",
-        "color": "gold",
-    }
-]
 
 export const courses =
 [
