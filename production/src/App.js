@@ -25,7 +25,7 @@ function App() {
             </button>
           </div>
           <div class="video">
-            <iframe width="450" height="300"
+            <iframe title="Introduction to MicroStrategy"
               src="https://www.youtube.com/embed/QKtIG0MlfAk">
             </iframe>
           </div>

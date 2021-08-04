@@ -48,11 +48,17 @@ a:focus {
     align-self: center;
 }
 
-/* @media (max-width: 1000px) {
+iframe {
+    width: 450px;
+    height: 300px;
+}
+
+@media (max-width: 460px) {
     .video {
-        display: none;
+        width: 200px;
+        height: auto;
     }
-} */
+}
 
 .buttons {
     display: flex;

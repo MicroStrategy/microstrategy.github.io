@@ -40,7 +40,7 @@ function Footer() {
             </div>
             <div className="site-nav">
                 <div class="slds-grid sitemap">
-                    <div class="slds-col">
+                    <div>
                         <nav class="nav-sitemap">
                             <p class="label">
                                 <a href="https://www.microstrategy.com/en/business-intelligence" class="label-link">Intelligence</a>
@@ -62,7 +62,7 @@ function Footer() {
                             </li>
                         </nav>
                     </div>
-                    <div class="slds-col">
+                    <div>
                         <nav class="nav-sitemap">
                             <p class="label">
                                 <a href="https://community.microstrategy.com/s/?language=en_US" class="label-link">Community</a>
@@ -84,7 +84,7 @@ function Footer() {
                             </li>
                         </nav>
                     </div>
-                    <div class="slds-col">
+                    <div>
                         <nav class="nav-sitemap">
                             <p class="label">
                                 <a href="https://www.microstrategy.com/en/solutions" class="label-link">Solutions</a>

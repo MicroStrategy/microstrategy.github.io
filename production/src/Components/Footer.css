@@ -37,11 +37,9 @@
     gap: 10px;
 }
 
-/* .slds-col {
-    display: inline;
-    margin: 1rem 0;
-    flex: 1 1 auto;
-} */
+.slds-col {
+    margin: 4% 0%;
+} 
 
 .slds-grid {
     display: inline-flex;
