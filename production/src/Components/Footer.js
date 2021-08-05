@@ -29,7 +29,7 @@ function Footer() {
                                 </a>
                             </li>
                             <li class="slds-col">
-                                <a href="https://www.microstrategy.com/en/company/contact-us?now=start" class="icon">Contact us</a>
+                                <a href="https://www.microstrategy.com/en/company/contact-us?now=start" class="icon contact">Contact us</a>
                             </li>
                         </ul>
                     </nav>
@@ -43,66 +43,66 @@ function Footer() {
                     <div>
                         <nav class="nav-sitemap">
                             <p class="label">
-                                <a href="https://www.microstrategy.com/en/business-intelligence" class="label-link">Intelligence</a>
+                                <a href="https://www.microstrategy.com/en/business-intelligence" class="label-link link">Intelligence</a>
                             </p>
                             <li>
-                                <a href="https://www.microstrategy.com/en/business-intelligence">BI &amp; Analytics</a>
+                                <a href="https://www.microstrategy.com/en/business-intelligence" class="link">BI &amp; Analytics</a>
                             </li>
                             <li>
-                                <a href="https://www.microstrategy.com/en/hyperintelligence">Hyper</a>
+                                <a href="https://www.microstrategy.com/en/hyperintelligence" class="link">Hyper</a>
                             </li>
                             <li>
-                                <a href="https://www.microstrategy.com/en/business-intelligence/embedded-intelligence">Embedded</a>
+                                <a href="https://www.microstrategy.com/en/business-intelligence/embedded-intelligence" class="link">Embedded</a>
                             </li>
                             <li>
-                                <a href="https://www.microstrategy.com/en/business-intelligence/embedded-intelligence">What's New</a>
+                                <a href="https://www.microstrategy.com/en/business-intelligence/embedded-intelligence" class="link">What's New</a>
                             </li>
                             <li>
-                                <a href="https://www.microstrategy.com/en/go/products/request-pricing">Request Pricing</a>
+                                <a href="https://www.microstrategy.com/en/go/products/request-pricing" class="link">Request Pricing</a>
                             </li>
                         </nav>
                     </div>
                     <div>
                         <nav class="nav-sitemap">
                             <p class="label">
-                                <a href="https://community.microstrategy.com/s/?language=en_US" class="label-link">Community</a>
+                                <a href="https://community.microstrategy.com/s/?language=en_US" class="label-link link">Community</a>
                             </p>
                             <li>
-                                <a href="https://community.microstrategy.com/s/documentation">Documentation</a>
+                                <a href="https://community.microstrategy.com/s/documentation" class="link">Documentation</a>
                             </li>
                             <li>
-                                <a href="https://community.microstrategy.com/s/discussions?language=en_US">Knowledge Base</a>
+                                <a href="https://community.microstrategy.com/s/discussions?language=en_US" class="link">Knowledge Base</a>
                             </li>
                             <li>
-                                <a href="https://demo.microstrategy.com/MicroStrategyLibrary/api-docs/index.html#/">API</a>
+                                <a href="https://www.microstrategy.com/en/education" class="link">Education</a>
                             </li>
                             <li>
-                                <a href="https://community.microstrategy.com/s/products?language=en_US">Software</a>
+                                <a href="https://community.microstrategy.com/s/products?language=en_US" class="link">Software</a>
                             </li>
                             <li>
-                                <a href="https://blog.microstrategy.com/">Blog</a>
+                                <a href="https://blog.microstrategy.com/" class="link">Blog</a>
                             </li>
                         </nav>
                     </div>
                     <div>
                         <nav class="nav-sitemap">
                             <p class="label">
-                                <a href="https://www.microstrategy.com/en/solutions" class="label-link">Solutions</a>
+                                <a href="https://www.microstrategy.com/en/solutions" class="label-link link">Solutions</a>
                             </p>
                             <li>
-                                <a href="https://www.microstrategy.com/en/solutions/retail">Retail</a>
+                                <a href="https://www.microstrategy.com/en/solutions/retail" class="link">Retail</a>
                             </li>
                             <li>
-                                <a href="https://www.microstrategy.com/en/solutions/financial-services">Financial Services</a>
+                                <a href="https://www.microstrategy.com/en/solutions/financial-services" class="link">Financial Services</a>
                             </li>
                             <li>
-                                <a href="https://www.microstrategy.com/en/solutions/healthcare-pharmaceuticals">Healthcare</a>
+                                <a href="https://www.microstrategy.com/en/solutions/healthcare-pharmaceuticals" class="link">Healthcare</a>
                             </li>
                             <li>
-                                <a href="https://www.microstrategy.com/en/solutions/federal-government">Government</a>
+                                <a href="https://www.microstrategy.com/en/solutions/federal-government" class="link">Government</a>
                             </li>
                             <li>
-                                <a href="https://www.microstrategy.com/en/partners/oem-partnership">OEM</a>
+                                <a href="https://www.microstrategy.com/en/partners/oem-partnership" class="link">OEM</a>
                             </li>
                         </nav>
                     </div>

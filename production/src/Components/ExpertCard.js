@@ -26,7 +26,7 @@ class ExpertCard extends React.Component {
     email() {
         if (this.props.email) {
             return  (
-                <p class="expert-email"><b>Email: </b> {this.props.email}</p>
+                <p class="expert-email"><strong>Email: </strong> {this.props.email}</p>
             );
         }
     }
@@ -34,7 +34,7 @@ class ExpertCard extends React.Component {
     linkedIn() {
         if (this.props.linkedin) {
             return (
-                <p class="expert-linked"><b>LinkedIn: </b><a href={this.props.linkedin}>{this.props.linkedin}</a></p>
+                <p class="expert-linked"><strong>LinkedIn: </strong><a href={this.props.linkedin}>{this.props.linkedin}</a></p>
             );
         }
     }
@@ -56,8 +56,8 @@ class ExpertCard extends React.Component {
                         <img src={this.props.src} alt={this.props.name} class="modal-img" />
                         <h2 class="expert-name">{this.props.name}</h2>
                         <h4 class="expert-desc">{this.props.desc}</h4>
+                        <p className="expert-bio">{this.props.bio}</p>
                         <div class="extra-info">
-                            <p className="expert-bio">{this.props.bio}</p>
                             {this.email()}
                             {this.linkedIn()}
                         </div>

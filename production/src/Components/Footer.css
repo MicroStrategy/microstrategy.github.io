@@ -19,14 +19,15 @@
 
 .logo {
     display: inline-block;
-    min-width: 300px;
-    max-width: 400px;
+    min-width: 200px;
+    max-width: 300px;
     height: auto;
     vertical-align: middle;
 }
 
 .icon {
-    color: white;
+    color: white !important;
+    text-decoration: none;
     margin: 0.25rem;
     padding: 0.25rem;
     background-color: black;
@@ -58,19 +59,19 @@ li {
 .label-link {
     font-size: 120%;
     text-transform: uppercase;
+    /* font-weight: 500; */
 }
 
 .site-nav {
     padding: 0% 10%;
 }
 
-a {
+.link {
     line-height: 1.8;
-    font-weight: 400;
     text-decoration: none;
-    color: black;
+    color: black !important;
 }
 
-a:hover {
-    color: #d9232e;
+.link:hover {
+    color: #d9232e !important;
 }

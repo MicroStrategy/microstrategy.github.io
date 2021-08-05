@@ -1,6 +1,6 @@
 .expert-button {
     width: 300px;
-    height: 250px;
+    height:300px;
     border: 2px solid lightgray;
     background-color: white;
     margin: 0;
@@ -9,7 +9,8 @@
     justify-content: center;}
 
 .expert-name {
-    margin: 5px 10px;
+    margin: 20px 10px 10px;
+    font-weight: 500;
 }
 
 .expert-desc {
@@ -33,6 +34,10 @@
 
 /* Modal formatting */
 
+h1 {
+    margin: 1rem;
+}
+
 .modal {
     position: fixed;
     top: 50%;
@@ -46,7 +51,6 @@
     box-shadow: 5px 6px 10px 0 rgb(0 0 0 / 40%);
     text-align: center;
 }
-
 
 .modal-img {
     object-fit: cover;
@@ -74,6 +78,15 @@
     margin: 0%;
 }
 
-.extra-info {
-    margin-top: 5%;
+.extra-info, .expert-bio {
+    margin-top: 1rem;
+}
+
+a {
+    text-decoration: solid !important;
+    color: #0000EE !important;
+}
+
+a:hover {
+    color: #0b477c !important;
 }
