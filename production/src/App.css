@@ -25,7 +25,7 @@ a:focus {
 
 .welcome  {
     min-width: fit-content;
-    margin: 5% 15%;
+    margin: 5% 0% 5% 15%;
 }
 
 #headerwelcome {
@@ -48,7 +48,7 @@ a:focus {
     display: inline-flex;
     flex-wrap: wrap;
     align-self: center;
-    margin: 0% 5%;
+    margin: 0% 5% 0% 2%;
 }
 
 iframe {
