@@ -19,13 +19,13 @@ a:focus {
     height: fit-content;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .welcome  {
     min-width: fit-content;
-    margin: 5% 0% 5% 15%;
+    margin: 5% 0% 5% 9%;
 }
 
 #headerwelcome {
