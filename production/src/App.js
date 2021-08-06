@@ -32,37 +32,42 @@ function App() {
         </div>
       </div>
       <div className="app">
-        <SectionHeader name="SDK Tools" desc="Customize, extend, integrate, and embed the power and functionality of MicroStrategy analytics into your Web and Mobile applications" />
-        <div className="buttons">
-          {
-            sdk.map((data) => {
-              return (
-                <SDKCard
-                  name={data.name}
-                  desc={data.desc}
-                  color={data.color}
-                  link={data.link}
-                />
-              );
-            })
-          }
+        <div className="SDK-section padding-15">
+          <SectionHeader name="SDK Tools" desc="Customize, extend, integrate, and embed the power and functionality of MicroStrategy analytics into your Web and Mobile applications" />
+          <div className="buttons">
+            {
+              sdk.map((data) => {
+                return (
+                  <SDKCard
+                    name={data.name}
+                    desc={data.desc}
+                    color={data.color}
+                    link={data.link}
+                  />
+                );
+              })
+            }
+          </div>
         </div>
-        <SectionHeader name="Courses" desc="Discover and learn exciting new technology with MicroStrategy classes" />
-        <div className="buttons">
-          {
-            courses.map((data) => {
-              return (
-                <CourseCard
-                  name={data.name}
-                  desc={data.desc}
-                  src={'./Images/' + data.src}
-                  link={data.link}
-                />
-              );
-            })
-          }
+        <div className="courses-section padding-15">
+          <SectionHeader name="Courses" desc="Discover and learn exciting new technology with MicroStrategy classes" />
+          <div className="buttons">
+            {
+              courses.map((data) => {
+                return (
+                  <CourseCard
+                    name={data.name}
+                    desc={data.desc}
+                    src={'./Images/' + data.src}
+                    link={data.link}
+                  />
+                );
+              })
+            }
+          </div>
+          <MoreButton name="See more courses" link="https://www.microstrategy.com/en/education" />
         </div>
-        <MoreButton name="See more courses" link="https://www.microstrategy.com/en/education" />
+        <div className="experts-section padding-15">
         <SectionHeader name="Experts" desc="Talk to our MicroStrategy SDK experts!" />
         <div className="buttons">
           {
@@ -79,6 +84,7 @@ function App() {
               );
             })
           }
+        </div>
         </div>
       </div>
       <div className="footers">

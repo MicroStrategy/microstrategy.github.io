@@ -45,48 +45,120 @@ h1 {
     bottom: auto;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding: 5% 5%;
+    padding: 35px;
     background-color: white;
     border: none;
+    outline: none;
     box-shadow: 5px 6px 10px 0 rgb(0 0 0 / 40%);
     text-align: center;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.modal-text {
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #29313b
 }
 
 .modal-img {
     object-fit: cover;
     object-position: top;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+    margin-bottom: 35px;
+}
+
+.modal-name {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.modal-desc {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.modal-bio {
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+}
+
+.email-button {
+    background-color: #d9232e;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 15px;
+    display: block;
+    margin: 0px auto 10px;
+}
+
+.email-button:hover,
+.email-button:focus {
+    background-color: #b11a23
+}
+
+.modal-email {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.modal-linked {
+    color: #d9232e;
+    font-size: 14px;
+    text-decoration: none;
+    margin: auto;
+}
+
+.modal-linked:hover,
+.modal-linked:focus {
+    color: #29313b
 }
 
 #close-modal {
     background-color: inherit;
     border: none;
-    padding: auto;
+    padding: 0px;
     position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 200%
+    top: 3px;
+    right: 10px;
+    font-size: 200%;
+    color: gray;
 }
 
 #close-modal:hover, #close-modal:focus {
     cursor: pointer;
+    box-shadow: none;
+    transform: none;
+    color: black;
 }
 
-.expert-email, .expert-linked {
-    margin: 0%;
-}
-
-.extra-info, .expert-bio {
-    margin-top: 1rem;
-}
-
-a {
-    text-decoration: solid !important;
-    color: #0000EE !important;
-}
-
-a:hover {
-    color: #0b477c !important;
+@media (max-width: 450px) {
+    .modal {
+        width: 200px;
+    }
+    .modal-img {
+        height: 100px;
+        width: 100px;
+    }
+    .modal-bio {
+        font-size: 12px;
+    }
+    .email-button {
+        padding: 7px 20px;
+    }
+    .modal-email {
+        font-size: 12px;
+    }
+    .modal-linked {
+        font-size: 10px;
+    }
 }

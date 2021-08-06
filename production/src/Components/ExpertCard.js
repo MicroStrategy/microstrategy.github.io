@@ -26,7 +26,7 @@ class ExpertCard extends React.Component {
     email() {
         if (this.props.email) {
             return  (
-                <p class="expert-email"><strong>Email: </strong> {this.props.email}</p>
+                <button className="email-button"><a href={"mailto: " + this.props.email + "?subject=SDK Help"} className="modal-email">Send Email</a></button>
             );
         }
     }
@@ -34,7 +34,7 @@ class ExpertCard extends React.Component {
     linkedIn() {
         if (this.props.linkedin) {
             return (
-                <p class="expert-linked"><strong>LinkedIn: </strong><a href={this.props.linkedin}>{this.props.linkedin}</a></p>
+                <a href={this.props.linkedin} className="modal-linked">Connect via LinkedIn!</a>
             );
         }
     }
@@ -51,16 +51,13 @@ class ExpertCard extends React.Component {
                 </div>
                 <ReactModal isOpen={this.state.showModal} contentLabel="Expert Information" className="modal" onRequestClose={this.handleCloseModal}>
                     <button onClick={this.handleCloseModal} id="close-modal">&times;</button>
-                    <div className="modaltext">
-                        <h1>Contact Our Expert!</h1>
+                    <div className="modal-text">
                         <img src={this.props.src} alt={this.props.name} class="modal-img" />
-                        <h2 class="expert-name">{this.props.name}</h2>
-                        <h4 class="expert-desc">{this.props.desc}</h4>
-                        <p className="expert-bio">{this.props.bio}</p>
-                        <div class="extra-info">
-                            {this.email()}
-                            {this.linkedIn()}
-                        </div>
+                        <h2 className="modal-name">{this.props.name}</h2>
+                        <h4 className="modal-desc">{this.props.desc}</h4>
+                        <p className="modal-bio">{this.props.bio}</p>
+                        {this.email()}
+                        {this.linkedIn()}
                     </div>
                 </ReactModal>
             </div>
