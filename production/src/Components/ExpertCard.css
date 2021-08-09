@@ -32,6 +32,10 @@
     border-radius: 50%;
 }
 
+.red-text {
+    color: #d9232e;
+}
+
 /* Modal formatting */
 
 h1 {
@@ -90,7 +94,7 @@ h1 {
     text-align: left;
 }
 
-.email-button {
+.red-button {
     background-color: #d9232e;
     padding: 10px 40px;
     border: none;
@@ -99,20 +103,25 @@ h1 {
     margin: 0px auto 10px;
 }
 
-.email-button:hover,
-.email-button:focus {
+.red-button:hover,
+.red-button:focus {
     background-color: #b11a23
 }
 
-.modal-email {
+.send-email {
     color: white;
     text-decoration: none;
     font-size: 16px;
     font-weight: 400;
 }
 
+.modal-email {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
 .modal-linked {
-    color: #d9232e;
     font-size: 14px;
     text-decoration: none;
     margin: auto;
