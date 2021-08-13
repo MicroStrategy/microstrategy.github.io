@@ -89,12 +89,13 @@ h1 {
 .modal-bio {
     margin-bottom: 30px;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 21px;
     text-align: left;
 }
 
-.red-button {
+/* OTHER VERSION - BUTTON WITH EMAIL UNDERNEATH */
+/* .red-button {
     background-color: #d9232e;
     padding: 10px 40px;
     border: none;
@@ -113,22 +114,23 @@ h1 {
     text-decoration: none;
     font-size: 16px;
     font-weight: 400;
-}
+} */
 
-.modal-email {
-    margin-top: 0px;
-    margin-bottom: 10px;
-    font-size: 12px;
-}
-
-.modal-linked {
+.modal-contact {
     font-size: 14px;
-    text-decoration: none;
-    margin: auto;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+    margin-bottom: 10px;
 }
 
-.modal-linked:hover,
-.modal-linked:focus {
+.modal-link {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.modal-link:hover,
+.modal-link:focus {
     color: #29313b
 }
 

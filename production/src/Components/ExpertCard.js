@@ -26,10 +26,13 @@ class ExpertCard extends React.Component {
     email() {
         if (this.props.email) {
             return  (
-                <div>
-                    <button className="red-button"><a href={"mailto: " + this.props.email + "?subject=SDK Help"} className="send-email">Send Email</a></button>
-                    {/* <p className = "modal-email">{this.props.email}</p> */}
-                </div>
+                // OTHER VERSION - BUTTON WITH EMAIL UNDERNEATH
+                // <div>
+                //     <button className="red-button"><a href={"mailto: " + this.props.email + "?subject=SDK Help"} className="send-email">Send Email</a></button>
+                //     <p className = "modal-email">{this.props.email}</p>
+                // </div>
+
+                <p className="modal-contact">Have a question about our products? Contact our expert: <a href={"mailto: " + this.props.email + "?subject=SDK Help"} className="modal-link red-text">{this.props.email}</a></p>
             );
         }
     }
@@ -37,7 +40,7 @@ class ExpertCard extends React.Component {
     linkedIn() {
         if (this.props.linkedin) {
             return (
-                <a href={this.props.linkedin} className="modal-linked red-text">Connect via LinkedIn!</a>
+                <p className="modal-contact">Or, connect via <a href={this.props.linkedin} className="modal-link red-text">LinkedIn</a>!</p>
             );
         }
     }
