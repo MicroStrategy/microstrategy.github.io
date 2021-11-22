@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import { sdk } from './cardData'
-import { courses } from './cardData'
-import { experts } from './cardData';
-import Navbar from './Components/Navbar.js'
+import { sdk } from './data/sdkOld';
+import { courses }  from './data/courses';
+import { experts } from './data/experts';
+import Navbar from './Components/Navbar.js';
 import SDKCard from './Components/SDKCard';
 import SectionHeader from './Components/SectionHeader';
 import CourseCard from './Components/CourseCard';

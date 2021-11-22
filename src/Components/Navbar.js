@@ -22,9 +22,13 @@ class Navbar extends React.Component {
     render() {
         return (
             <div className="navbar">
-                <a href="https://www.microstrategy.com" id="logo">
-                    <img src="./Images/microstrategy-logo_red.svg" alt="MicroStrategy Logo" id="logo-img" />
-                </a>
+                <div id="logo">
+                    <a href="https://www.microstrategy.com" >
+                        <img src="./Images/microstrategy-logo_small.png" alt="MicroStrategy Logo" id="logo-img-small" />                   
+                        <img src="./Images/microstrategy-logo_red.svg" alt="MicroStrategy Logo" id="logo-img" />                   
+                    </a>
+                    <span id="title">Developer</span>
+                </div>
                 <form onSubmit={this.handleSubmit} id="search">
                     <input type='text' placeholder="Search MicroStrategy Community" value={this.state.value} onChange={this.handleChange} id="search-bar" />
                 </form>
